@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "auto_execute_commands": [
+      "go test ./...",
+      "cd frontend; npm run lint"
+    ],
+    "requires_approval": [
+      "go run main.go",
+      "cd frontend; npm run dev",
+      "cd frontend; npm install"
+    ]
+  }
+}
