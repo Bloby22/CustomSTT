@@ -1,0 +1,21 @@
+# Backend (Go)
+go.sum
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bin
+models/
+
+# Frontend (React / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+frontend/npm-debug.log*
+
+# Settings editors a
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
