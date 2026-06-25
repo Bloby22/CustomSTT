@@ -6,7 +6,7 @@ go.sum
 *.so
 *.dylib
 *.bin
-models/
+models/*.bin
 
 # Frontend (React / Vite)
 frontend/node_modules/

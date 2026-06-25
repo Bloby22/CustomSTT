@@ -1,0 +1,15 @@
+{
+    "default_model": "ggmm-small.bin",
+    "models": [
+        {
+            "id": "small",
+            "name": "OpenAI Whisper (Small)",
+            "file": "ggmm-small.bin",
+            "language": "multilingual",
+            "size_mb": 488,
+            "ram_mb": 900,
+            "recommended": true,
+            "description": "Recommended model for most users. A good balance of speed and accuracy."
+        }
+    ]
+}
